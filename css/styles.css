@@ -87,7 +87,7 @@ body {
 }
 .hero-btn:hover
 .hero-btn:focus {
-   color: #404BBF;
+   background-color: #404BBF;
 }
 /* --SECTION 2-- */
 .features {
@@ -132,6 +132,9 @@ body {
     list-style-type: none;
     background-color: #FFFFFF;
 }
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -139,7 +142,8 @@ body {
     /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center
+    text-align: center;
+    color: #2e2f42;
 }
 
 .team-text {
