@@ -10,6 +10,7 @@ body {
     text-decoration: none;
 }
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     font-family: "Raleway";
@@ -21,6 +22,7 @@ body {
     text-decoration: none;
 }
 .header-logo-studio {
+    font-family: "Raleway", sans-serif;
     color: #2E2F42;
 }
 .header-menu-list {
@@ -38,8 +40,9 @@ body {
 }
 .header-menu-link:hover
 .header-menu-link:focus {
-    color: #404bbf;
+    color:#404bbf;
 }
+
 .contacts {
     font-style: normal;
 }
@@ -59,7 +62,7 @@ body {
 }
 .contacts-list-link:hover
 .contacts-list-link:focus {
-    color:#404bbf;
+    color: #404bbf;
 }
 /* --SECTION 1-- */
 .hero {
@@ -112,6 +115,9 @@ body {
     color: #434455;
 }
 /* --SECTION 3-- */
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-weight: 700;
@@ -120,16 +126,12 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-list {
     list-style-type: none;
-}
-.team-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #ffffff;
 }
 
 .team-images {
