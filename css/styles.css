@@ -59,7 +59,7 @@ body {
     color:#434455;
     text-decoration: none;
 }
-.contacts-list-link:hover
+.contacts-list-link:hover,
 .contacts-list-link:active {
     color: #404bbf;
 }
@@ -85,7 +85,7 @@ body {
     background-color: #4D5AE5;
     cursor: pointer;
 }
-.hero-btn:hover
+.hero-btn:hover,
 .hero-btn:focus {
    background-color: #404BBF;
 }
