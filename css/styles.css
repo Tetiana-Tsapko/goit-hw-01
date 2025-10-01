@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:focus {
     color:#404bbf;
 }
 
@@ -60,7 +60,7 @@ body {
     text-decoration: none;
 }
 .contacts-list-link:hover,
-.contacts-list-link:active {
+.contacts-list-link:focus {
     color: #404bbf;
 } 
 
